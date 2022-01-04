@@ -26,3 +26,12 @@ while(i< len(lista) and not lista[i] < 0):
     i+=1
 
 print("van" if i<len(lista) else "nincs")
+
+print("hany paros szam van a sorozatban? ")
+
+db = 0
+for i in lista:
+    if i%2 == 0:
+        db+=1
+
+print(db)
